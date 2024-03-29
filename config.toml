@@ -1,3 +1,22 @@
-baseURL = "http://example.org/"
+baseURL = "https://av4nth1ka.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Avanthika's Blog"
+theme = "beautifulhugo"
+[params]
+  author = "Avanthika Anand"
+  description = "A blog about web stuffs."
+
+  [[params.social]]
+    icon = "github"
+    name = "GitHub"
+    url = "https://github.com/av4nth1ka"
+
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/Avanthikaanand1"
+
+  [[params.social]]
+    icon = "linkedin"
+    name = "Linkedin"
+    url = "https://linkedin.com/in/avanthika-anand-00b017244"
