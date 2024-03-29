@@ -1,7 +1,7 @@
 baseURL = "https://av4nth1ka.github.io"
 languageCode = "en-us"
 title = "Avanthika's Blog"
-theme = "beautifulhugo"
+theme = "beautiful-hugo"
 [params]
   author = "Avanthika Anand"
   description = "A blog about web stuffs."
