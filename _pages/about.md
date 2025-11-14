@@ -18,6 +18,14 @@ These teams shaped the way I think about problem-solving, exploitation, and secu
 
 These days, I’m taking learning slowly but deeply, exploring bugs, reading code, experimenting with ideas, and trying to understand things beyond the surface level.
 
+Before starting this blog, I published a write-up here:
+
+🔗 [Analysing CVE-2024-24942 leading to unauthenticated Path Traversal](https://blog.0daylabs.com/2024/12/11/jetbrains-teamcity-authbypass-path-traversal/)
+
+Read my CTF notes here:
+
+🔗 [CTF notes](https://github.com/av4nth1ka/web-ctf-notes)
+
 ## **What I'm Into**
 
 My interests revolve around:
