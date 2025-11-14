@@ -4,26 +4,39 @@ title: About
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+Hey, I'm **Avanthika** 👋
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+I'm a **full-time learner** and a **cybersecurity master's student**.
+I like exploring the deeper layers of code and security.
 
-## Features
+I’ve been in **web application security for 4 years**, starting off as a CTF player with:
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+- **[Team bi0s](https://bi0s.in/)** — India’s #1 CTF team 
+- **[Team Shakti](https://www.shakticon.com/)** — India’s #1 women-only CTF team  
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+These teams shaped the way I think about problem-solving, exploitation, and security research.
+
+These days, I’m taking learning slowly but deeply, exploring bugs, reading code, experimenting with ideas, and trying to understand things beyond the surface level.
+
+## **What I'm Into**
+
+My interests revolve around:
+
+- **Java source code analysis**  
+- **CVE reproduction & reversing**  
+- **CTFs & web exploitation**
+
+## **Outside Security**
+
+When I’m not breaking applications or reading source code, you'll find me:
+
+- Reading fiction.(Find me on [GoodReads](https://www.goodreads.com/user/show/186181641-avanthika-anand))
+- Planning future trips in my head :)
+
+## Reach out
+
+[Github](https://github.com/av4nth1ka)  
+
+[Linkedin](www.linkedin.com/in/avanthika-anand-00b017244)
+
+[Twitter](https://x.com/av4nth1ka) 
