@@ -28,6 +28,19 @@ title: Posts Archive
           <p><b><a href="{{ site.baseurl }}{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a></b> - {% if post.date and post.date != "" %}{{ post.date | date: "%e %B %Y" }}{%endif%}</p>
           {% endfor %}
       </ul>
-    <h3>Oldest Posts</h3>
+    <h3>Featured Write-ups</h3>
+<ul>
+  <li>
+    <b>
+      <a href="https://blog.0daylabs.com/2024/12/11/jetbrains-teamcity-authbypass-path-traversal/" target="_blank" rel="noopener">
+        JetBrains TeamCity Authentication Bypass & Path Traversal
+      </a>
+    </b>
+    <br>
+    <small>Article published on 0daylabs</small>
+  </li>
+</ul>
+
+
   </section>
 </div>
