@@ -59,10 +59,15 @@ At its simplest,Jinjava usage looks like this:
 import com.hubspot.jinjava.Jinjava;
 import java.util.Map;
 
-Jinjava jinjava = new Jinjava();
-String template = "Hello {{ name }}!";
-Map<String, Object> context = Map.of("name", "World");
-String output = jinjava.render(template, context);
+public class JinjavaExample {
+    public static void main(String[] args) {
+        Jinjava jinjava = new Jinjava();
+        String template = "Hello {{ name }}!";
+        Map<String, Object> context = Map.of("name", "World");
+        String output = jinjava.render(template, context);
+        System.out.println(output);
+    }
+}
 // output = "Hello World!"
 
 
@@ -104,16 +109,24 @@ Java provides a built-in API to discover these properties automatically:
 
 import java.beans.Introspector;
 import java.beans.PropertyDescriptor;
+import java.beans.IntrospectionException;
 
-// Get all properties of a String object
-PropertyDescriptor[] props = Introspector
-    .getBeanInfo(String.class)
-    .getPropertyDescriptors();
+public class IntrospectorDemo {
+    public static void main(String[] args) {
+        try {
+            // Get all properties of a String object
+            PropertyDescriptor[] props = Introspector
+                    .getBeanInfo(String.class)
+                    .getPropertyDescriptors();
 
-for (PropertyDescriptor prop : props) {
-    System.out.println(prop.getName() + " → " + prop.getReadMethod());
+            for (PropertyDescriptor prop : props) {
+                System.out.println(prop.getName() + " → " + prop.getReadMethod());
+            }
+        } catch (IntrospectionException e) {
+            e.printStackTrace();
+        }
+    }
 }
-
 
 ```
 Output:   
@@ -995,10 +1008,12 @@ The advisory rates this as CVSS 9.8 (Critical),and our exploit confirms why.From
    
 And all of this from what's supposed to be a sandboxed template engine.   
 ## References   
+- [POC](https://github.com/av4nth1ka/jinjava-cve-2026-25526-poc)
 - [Commit](https://github.com/HubSpot/jinjava/commit/3d02e504d8bbb13bf3fe019e9ca7b51dfce7a998)   
 - [Advisory](https://github.com/HubSpot/jinjava/security/advisories/GHSA-gjx9-j8f8-7j74)   
 - [Jackson Default Typing](https://cowtowncoder.medium.com/jackson-2-10-safe-default-typing-2d018f0ce2ba)
 - [Java Reflection](https://aeontanvir.medium.com/exploring-java-reflection-api-a-comprehensive-guide-d871f73333ca)
+- [ObjectMapper and its methods examples in Java](https://medium.com/@salvipriya97/objectmapper-and-its-methods-examples-in-java-4a4cab75cb6b)
 
    
    
