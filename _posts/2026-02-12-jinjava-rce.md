@@ -7,7 +7,7 @@ permalink: /jinjava-rce-cve-2026-25526/
 
 This article explores the technical details of CVE-2026-25526, a critical Sandbox Bypass vulnerability affecting HubSpot's [Jinjava](https://github.com/HubSpot/jinjava) template engine. We will deconstruct a logic flaw within the **ForTag** component that allows attackers to evade the security resolver using raw Java Reflection. We will demonstrate how chaining this bypass with an unrestricted Jackson ObjectMapper enables attackers to instantiate arbitrary classes, leading to full file system enumeration and arbitrary file reads. This article is intended for educational purposes to help beginners understand the mechanics of Java sandbox escapes and Server-Side Template Injection (SSTI).
 
-## Table of Contents
+
 {: .no_toc }
 
 * TOC

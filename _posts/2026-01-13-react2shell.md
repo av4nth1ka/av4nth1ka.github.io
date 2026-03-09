@@ -6,7 +6,7 @@ permalink: /react2shell-nextjs-CVE-2025-66478/
 ---
 This article explores the technical details of React2Shell (CVE-2025-66478), a maximum-severity unauthenticated Remote Code Execution (RCE) vulnerability affecting the Next.js and React ecosystem. We will deconstruct the insecure deserialization flaw of **Flight protocol** within React Server Components and demonstrate how a single crafted HTTP request can lead to full server takeover. This research is intended for educational purposes to help beginners understand the risks of modern server-side rendering architectures. 
 
-## Table of Contents
+
 {: .no_toc }
 
 * TOC
