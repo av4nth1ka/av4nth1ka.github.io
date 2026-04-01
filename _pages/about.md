@@ -12,11 +12,11 @@ My journey into security started around four years ago through Capture The Flag 
 
 Those communities shaped the way I approach problems - breaking things down, reading the code, and figuring out why something behaves the way it does.
 
-For the past year, I’ve been particularly drawn to analyzing CVEs. I enjoy digging into vulnerability disclosures, reading patches, and trying to reverse them to understand what the bug actually was. Most of the time this means reading through Java code, since many of the applications and frameworks I look at are written in it. Reproducing the issue locally and tracing the root cause has become one of my favorite ways to learn how software really behaves.
+For the past year I've been deep into CVE analysis. I pick a vulnerability disclosure, read the patch, reverse it to understand the original bug, then reproduce it locally and trace the root cause through the source. Most of this ends up being Java — frameworks, application servers, libraries, which means a lot of time reading through internals that weren't really meant to be read.
 
-These days I try to learn slowly, but deeply. I spend a lot of time reading source code, reproducing vulnerabilities, experimenting with ideas, and understanding systems beyond the surface.
+It's slow work, but it's the kind of understanding that actually sticks.
 
-This blog is a place where I document that process. I’ve always enjoyed deep-dive blog posts where the author takes the time to explain everything properly instead of assuming the reader already knows the context. Those kinds of posts are surprisingly rare, so that’s the style I try to follow here(*so expect long posts… really long ones sometimes!*).
+This blog is where I document that process. The posts are long(*really long sometimes..*). I write the kind of deep-dive I wish had existed when I was first figuring something out: the context, the wrong turns, the moment where the thing finally makes sense. If you're here for quick summaries, this probably isn't the right place. If you want to actually understand how something works, stick around. Most posts here are deep dives into vulnerabilities, patch analysis, or things I discovered while experimenting with code.
 
 Before starting this blog, I published a write-up here:
 
@@ -26,18 +26,16 @@ You can also find some of my CTF notes here:
 
 🔗 [CTF notes](https://github.com/av4nth1ka/web-ctf-notes)
 
-Occasionally, I write technical deep dives about software internals, vulnerabilities, and the debugging process behind understanding them.
-
-If you'd like to follow updates, there's also an RSS feed at `/feed.xml`. Most posts here are deep dives into vulnerabilities, patch analysis, or things I discovered while experimenting with code.
-
 ## **What I'm Into**
 
-Most of my curiosity revolves around:
+What I spend time on:
 
 - **CVE reproduction and root-cause analysis**  
 - **Reverse engineering patches to understand what actually changed**  
 - **Java source code analysis and understanding framework internals**
 - **CTFs (web exploitation)**
+- **AI and agentic security**
+- **Supply chain security**
 
 ## **Outside Security**
 
@@ -48,6 +46,6 @@ When I’m stuck on something, or taking a break from reading code, you’ll pro
 
 ## Reach out
 
-[Linkedin](www.linkedin.com/in/avanthika-anand-00b017244)
+[Linkedin](https://www.linkedin.com/in/avanthika-anand-00b017244)
 
 [Twitter](https://x.com/av4nth1ka) 

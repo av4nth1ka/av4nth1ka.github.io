@@ -654,6 +654,41 @@ Modules - reusable parts of our design
   border-bottom: 1px dotted var(--text-color);
 }
 
+.post-tags {
+  text-align: center;
+  line-height: 35px;
+}
+
+.post-tags a {
+  font-size: 14.5px;
+  padding: 2px 13px;
+  border: none;
+  background-color: #4CAF50;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.pagination a,
+.pagination span {
+  padding: 7px 18px;
+  border: 1px solid var(--border-color);
+  margin-left: -2px;
+  margin-right: -2px;
+  background-color: var(--bg-color);
+  display: inline-block;
+}
+
+.pagination a {
+  &:hover {
+    background-color: var(--code-bg);
+    color: var(--text-color);
+  }
+}
+
+.pagination {
+  text-align: center;
+}
+
 //carbon ads
 #carbonads {
   --width: 180px;
@@ -1221,6 +1256,7 @@ Modules - reusable parts of our design
 //@import "highlights";
 @import "darcula";
 @import "svg-icons";
+
 // Table of Contents - Right side positioning
 #markdown-toc {
   position: fixed;
@@ -1234,11 +1270,12 @@ Modules - reusable parts of our design
   list-style: none;
   border-left: 2px solid var(--border-color);
   z-index: 100;
-  
+
   // Minimal scrollbar styling
   &::-webkit-scrollbar {
     width: 4px;
   }
+
   &::-webkit-scrollbar-thumb {
     background: var(--border-color);
     border-radius: 4px;
@@ -1366,6 +1403,7 @@ Modules - reusable parts of our design
     flex-direction: column;
     gap: 10px;
   }
+
   .post-navigation .prev,
   .post-navigation .next {
     text-align: center;
