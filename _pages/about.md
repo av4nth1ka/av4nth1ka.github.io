@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi, I'm **Avanthika** 👋
 
-I’m a **cybersecurity master’s student**, a **CTF player** and a **curious learner** who likes reading code, digging into bugs, and trying to understand how vulnerabilities actually happen.
+I’m a **CTF player** and a **curious learner** who likes reading code, digging into bugs, and trying to understand how vulnerabilities actually happen.
 
 My journey into security started around four years ago through Capture The Flag competitions. I was fortunate to learn alongside incredible people in [Team bi0s](https://bi0s.in/) and [Team Shakti](https://shakticon.com/), two of India's top CTF teams.
 
